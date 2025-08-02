@@ -1,0 +1,25 @@
+{
+  "name": "jira-mcp-server",
+  "version": "1.0.0",
+  "description": "Model Context Protocol server for Jira task management",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc && node build/index.js"
+  },
+  "keywords": ["mcp", "jira", "task-management"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "zod": "^3.22.0",
+    "node-fetch": "^3.3.2",
+    "@types/node-fetch": "^2.6.4"
+  }
+}
